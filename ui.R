@@ -68,7 +68,7 @@ shinyUI(
                         column(2,h1(" "),uiOutput("goButton")),
                         column(4,h1(" "),checkboxInput("IgnoreErr", 
                                              "Use all data. For for the selected waterbody, use indicators which have data for fewer than 3 out of 6 years.",
-                                              value = FALSE, width = '100%')#,
+                                              value = T, width = '100%')#,
                                #p("Use all data for the selected waterbody, including indicators which have data for fewer than 3 out of 6 years.")#,
                         #column(1,h2(" "),uiOutput("btnExtrap"))
                         )),
